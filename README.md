@@ -1,7 +1,8 @@
 # SoundSync
 
 ## Project Overview
-What if you can stream songs of your choice from anywhere across the globe just at your fingertips? 
+What if you can upload your recorded song on a platform from where you can listen it anytime across the globe at your fingertips? This might not look novel to you, but the journey of tinkering with this idea and developing it with the concepts of cloud computing was interesting and worth learning for our team at Ahmedabad University.
+
 + In this project of cloud computing, our main focus was to work with virtualization technology to learn how virtual machines work and deploy the developed services across number of VMs to ensure the high reliability while songs are streaming.
 
 ## Project Functionality
