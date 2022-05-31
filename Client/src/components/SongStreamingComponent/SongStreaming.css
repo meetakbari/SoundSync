@@ -1,0 +1,15 @@
+.Pane2{
+    display: block !important;
+    
+}
+
+
+.myaudio_player{
+    width: 100%;
+    background: rgb(44, 41, 41)   ;
+    color: white !important;
+}
+
+.rhap_current-time, .rhap_time{
+    color: white !important;
+}

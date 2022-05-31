@@ -1,0 +1,50 @@
+.SearchSong{
+    padding: 10px;
+}
+
+.song__list{
+    margin-top: 30px;
+    padding: 10px;
+    padding-top: 20px;
+    max-height: 600px;
+    overflow-y: scroll;
+}
+
+.song__data{
+    /* background: red; */
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+}
+.song__data:hover{
+    transform: scale(1.007);
+    border-color:rgba(243,84,86,.8) ;
+}
+
+.singer_list{
+    margin-top: 10px;
+    /* padding: 10px; */
+}
+.singer__name{
+   
+    border: 2px solid black ;
+    padding: 5px;
+    font-size: 13px;
+    border-radius: 10px;
+    margin-right: 5PX;
+}
+
+.loading{
+    position: absolute ;
+    top: 30vh;
+    left: 30vw;
+}
+
+.playing__loader{
+    position: absolute ;
+    top: 0px;
+    right: 100px;
+}

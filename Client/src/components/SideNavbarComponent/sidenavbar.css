@@ -1,0 +1,23 @@
+.SideNavbar{
+    width: 100%;
+}
+
+.sidenabar__button{
+    text-decoration:none;
+    padding: 5px;
+}
+
+.sidenabar__button > li {
+    min-height: 50px;
+    border-radius: 5px;
+    /* text-align: center; */
+    display : flex;
+    align-items : center;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.sidenabar__button > .active{
+    background: rgba(243,84,86,.8);
+    color: white;
+}
