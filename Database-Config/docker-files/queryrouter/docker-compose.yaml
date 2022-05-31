@@ -1,0 +1,10 @@
+version: '2.2'
+
+services:
+  
+  mongos:
+    container_name: mongos
+    image: mongo
+    command: mongos --configdb cfgrs/configservers:8001,configservers:8002,configservers:8003 --bind_ip 0.0.0.0 --port 27017
+    ports:
+      - 8000:27017

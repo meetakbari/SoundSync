@@ -1,0 +1,11 @@
+rs.initiate(
+  {
+    _id: "cfgrs",
+    configsvr: true,
+    members: [
+      { _id : 0, host : "configservers:8001" },
+      { _id : 1, host : "configservers:8002" },
+      { _id : 2, host : "configservers:8003" }
+    ]
+  }
+)

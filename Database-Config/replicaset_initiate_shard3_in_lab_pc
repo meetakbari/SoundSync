@@ -1,0 +1,10 @@
+rs.initiate(
+  {
+    _id: 'shard3rs',
+    members: [
+      { _id: 0, host: 'hadoop-slave1:8001' },
+      { _id: 1, host: 'hadoop-slave1:8002' },
+      { _id: 2, host: 'hadoop-slave1:8003' }
+    ]
+  }
+)

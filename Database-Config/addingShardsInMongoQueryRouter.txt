@@ -1,0 +1,2 @@
+sh.addShard("shard1rs/shard1servers:8001,shard1servers:8002,shard1servers:8003")            // added first shard cluster
+sh.addShard("shard2rs/shard2servers:8001,shard2servers:8002,shard2servers:8003")            // adding another shard cluster

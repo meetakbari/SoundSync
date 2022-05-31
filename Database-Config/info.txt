@@ -1,0 +1,22 @@
+// returns sharding configuration report when run on a mongos (query router - the one through which applications do data operations in shard clusters or normal ones) instance 
+sh.status()
+
+// adding shard cluster to a query router
+sh.addShard("<replicaset-name>/<ip-address>:<port-number>") // add all of the members in a cluster separated by ',' (comma)
+
+// to check data distributions among shard clusters
+db.<collection-name>.getShardDistribution()
+
+// enabling sharding on a database
+sh.enableSharding("<database-name>")
+
+// shard an empty collection - (when we specify shard key, it creates index on it [applicable only if collection is empty])
+sh.shardCollection("<database-name>.<collection-name>", {"<shard-key-name>": "hashed"}) // "hashed" for using hashed shard key
+
+to shard collection already having data, we need to first create hashed index and then do sharding on it
+
+// creating hashed index on a collection
+db.<collection-name>.createIndex({"<key-name>": "hashed"})
+
+// sharding a collection after hashed indexing
+sh.shardCollection("<database-name>.<collection-name>", {"<shard-key-name>": "hashed"}) // "hashed" for using hashed shard key
