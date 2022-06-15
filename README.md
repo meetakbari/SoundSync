@@ -34,6 +34,9 @@ Complete project was setup on 4 different desktops(having different IP addresses
 ## Implemented Services' Pseudocodes
 + Pseudocodes of essential services of this project are available inside the SoundSync/Pseudocode-of-Services directory.
 
+## Demo of the Project
+[Click here to watch the video](https://drive.google.com/file/d/1wGVSjlTQxI5ZQhRYyxCYTw-7IWHukYoL/view?resourcekey)
+
 ## Future Work
 + Improvise streaming service
 + Use more than one storage server (HDFS nodes)
